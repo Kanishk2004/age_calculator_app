@@ -98,6 +98,14 @@ span{
     letter-spacing: 5px;
 }
 
+footer{
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
 
 
 
