@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400;1,800&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <title>Age calculator app</title>
+
+</head>
+<body>
+
+  <div class="main">
+
+    <form action="">
+
+      <div class="date">
+        <label class="label" for="day">DAY</label>
+        <input class="input hover" type="text" name="day" id="day" placeholder="DD" required>
+      </div>
+
+      <div class="date">
+        <label class=" label" for="month">MONTH</label>
+        <input class=" input" type="text" name="month" id="month" placeholder="MM" required>
+      </div>
+
+      <div class="date">
+        <label class="label" for="year">YEAR</label>
+        <input class="input" type="text" name="year" id="year" placeholder="YYYY" required>
+      </div>
+
+    </form>
+    
+    <button type="submit" onclick="getYourAge()">
+      <img src="./assets/images/icon-arrow.svg" alt="icon">
+    </button>
+<hr>
+    <div class="result">
+      <h1 class="year-container text"><span class="years">--</span>years</h1>
+      <h1 class="month-container text"><span class="months">--</span>months</h1>
+      <h1 class="day-container text"><span class="days">--</span>days</h1>
+    </div>
+  </div>
+
+  <script src="./script.js"></script>
+
+</body>
+</html>
